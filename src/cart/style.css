@@ -1,0 +1,70 @@
+.con-box {
+  width: 900px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.con-box .box {
+  width: 48%;
+}
+.con-box .box.con1 form p {
+  margin-bottom: 10px;
+}
+.con-box .box.con1 form p label {
+  display: block;
+  margin-bottom: 5px;
+}
+.con-box .box.con1 form p input[type=text], .con-box .box.con1 form p input[type=number] {
+  width: 100%;
+  line-height: 40px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+.con-box .box.con1 form button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.con-box .con2 {
+  width: 48%;
+}
+.con-box .con2 .btn {
+  width: 100%;
+  height: 40px;
+}
+.con-box .con2 .total {
+  display: block;
+  margin: 15px;
+  font-size: 20px;
+}
+.con-box .con2 ul {
+  margin-top: 30px;
+}
+.con-box .con2 li {
+  width: 100%;
+  line-height: 40px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+}
+.con-box .con2 li p {
+  width: 200px;
+}
+.con-box .con2 li p span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.con-box .con2 li p strong {
+  margin-left: 5px;
+}
+.con-box .con2 li p:last-child {
+  width: 75px;
+}
+.con-box .con2 li p:last-child button {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
